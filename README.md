@@ -120,7 +120,7 @@ python ply_viewer_cumulative_frame.py -i ./output_ply --start 10 --end 50
 python ply_viewer_cumulative_frame.py -i ./output_ply --jet-colormap
 ```
 
-A screenshot of the ply_viewer_cumulative_frame.py output can be found at [docs/Screenshot.png](docs/Screenshot.png).
+A screenshot of the ply_viewer_cumulative_frame.py output can be found at ![docs/Screenshot.png](docs/Screenshot.png).
 
 ## Key Features
 
