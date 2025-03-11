@@ -426,7 +426,7 @@ class LVX2_to_PLY(object):
 
             # Convert to numpy structured array
             vertex = np.array(
-                vertex_data, dtype=[("x", "f4"), ("y", "f4"), ("z", "f4"), ("reflectivity", "u1"), ("tag", "u1")]
+                vertex_data, dtype=[("x", "f4"), ("y", "f4"), ("z", "f4"), ("reflectivity", "i1"), ("tag", "i1")]
             )
 
             # Create PLY element
